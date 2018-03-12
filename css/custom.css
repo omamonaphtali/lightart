@@ -1,0 +1,151 @@
+/* globals */
+body{
+    padding-top: 30px;
+}
+section{
+    min-height: 300px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+a, a:hover{
+    color: #000000;
+    text-decoration: none;
+}
+
+.header-dark{
+    background-color: #404040;
+}
+.header-light{
+    background-color: rgba(88,156,177,0.92);
+}
+.header-dark, .header-light{
+    text-transform: uppercase;
+    color: #FFFFFF;
+    min-height: 200px;
+    padding-top: 20px;
+}
+.header-dark h1, .header-dark h3, .header-light h1, .header-light h3{
+    text-align: center;
+}
+/*apply a unique font to all headings*?
+
+/* header */
+.item{
+    background: url('../images/parties.jpg') no-repeat center;
+    background-size: cover;
+    width: 100%;
+}
+
+/* about */
+#about{
+    padding-bottom: 20px;
+}
+#about .row{
+    padding: 5px 20px;
+    -webkit-columns: 400px 2;
+    -moz-columns: 400px 2;
+    columns: 400px 2;
+}
+#about a{
+    color: #000000;
+    font-weight: bold;
+    font-size: large;
+    text-decoration: none;
+}
+#about a:hover{
+    color: #589cb1;
+}
+
+/* portfolio */
+#portfolio button a{
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 10px 5px;!important;
+    margin: auto!important;
+}
+.btn .btn-primary{
+    color: #589cb1;!important
+}
+#portfolio #text, #portfolio .col-sm-3{
+    margin: auto;
+}
+
+/* events */
+.event img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.event {
+    padding: 5em 0;
+}
+.first-grid {
+    text-align: center;
+    padding: 40px 10px;
+    margin-right: 10px;
+    background: #000;
+}
+.first-grid h3 {
+    text-transform: uppercase;
+    color: #FFC107;
+    font-size: 19px;
+    font-weight: 600;
+    margin: 20px 0 0;
+}
+.first-grid  h4 {
+    margin: 5px 0;
+    text-transform: capitalize;
+}
+.first-grid p {
+    font-size: 14px;
+    color: #999;
+    margin: 10px 0;
+    line-height: 24px;
+}
+
+/* testimonials */
+#testimonial-carousel .carousel-item{
+    min-height: 200px;
+    margin: auto;
+}
+#testimonial-carousel .carousel-item div{
+    padding: 20px auto;
+}
+
+/* contact */
+
+/* footer */
+#footer{
+    background-color: rgba(74,74,74,1);
+    color: #FFFFFF;
+
+}
+#footer div{
+    padding: 5px 20px;
+}
+#footer h5{
+    color: #FFFFFF;
+    padding-bottom: 10px;
+}
+#footer ul{
+    list-style-type: none;
+}
+#footer #footer-nav ul li{
+    display: inline-block;
+}
+#footer ul li a{
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+#footer #copyright{
+    border-top: #616161 1px solid;
+}
+#footer a{
+    color: #FFFFFF;
+}
+#footer .events{
+    text-align: left;
+}
+#footer .col-sm-3{
+    padding-top: 20px;
+}

@@ -7,19 +7,19 @@
     <div class="collapse navbar-collapse" id="myNav">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-                <a class="nav-link" href="index.php">HOME <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="../">HOME <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="photography/">MY PORTFOLIO</a>
+                <a class="nav-link" href="../photography/">MY PORTFOLIO</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="events/">RECENT EVENTS</a>
+                <a class="nav-link" href="../events/">RECENT EVENTS</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="about-tony/">MEET LIGHTART</a>
+                <a class="nav-link" href="../about-tony/">MEET LIGHTART</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="contact-tony/">CONTACT LIGHTART</a>
+                <a class="nav-link" href="../contact-tony/">CONTACT LIGHTART</a>
             </li>
         </ul>
     </div>

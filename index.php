@@ -29,53 +29,56 @@
 <body class="container-fluid">
 <!-- header -->
 <section>
-    <?php
-        include ('includes/header.php');
-    ?>
-    <div class="w3_agile_banner_info">
-        <section class="slider">
-            <div class="flexslider">
-                <ul class="slides">
-                    <li>
-                        <div class="item">
-                            <p>We are never afraid of technical challenges…</p>
-                            <h3>Just see our most recent works projects!</h3>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="item">
-                            <p>We are never afraid of technical challenges…</p>
-                            <h3>Just see our most recent works projects!</h3>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="item">
-                            <p>We are never afraid of technical challenges…</p>
-                            <h3>Just see our most recent works projects!</h3>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="item">
-                            <p>We are never afraid of technical challenges…</p>
-                            <h3>Just see our most recent works projects!</h3>
-                        </div>
-                    </li>
-                </ul>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">LightArt</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNav" aria-controls="myNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="myNav">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="">HOME <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="photography/">MY PORTFOLIO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="events/">RECENT EVENTS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about-tony/">MEET LIGHTART</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact-tony/">CONTACT LIGHTART</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="agileits-feedback-grids">
+        <div id="owl-banner" class="owl-carousel owl-theme">
+            <div class="item">
+                <div class="banner grid-1">
+                    <div class="first-grid">
+                        <img src="images/saj-jazz-fest.png" alt="Safaricom Jazz festival" class="img-responsive" />
+                    </div>
+                </div>
             </div>
-        </section>
-        <!-- flexSlider -->
-        <script defer src="js/jquery.flexslider.js"></script>
-        <script type="text/javascript">
-            $(window).load(function(){
-                $('.flexslider').flexslider({
-                    animation: "slide",
-                    start: function(slider){
-                        $('body').removeClass('loading');
-                    }
-                });
-            });
-        </script>
-        <!-- //flexSlider -->
+            <div class="item">
+                <div class="banner grid-1">
+                    <div class="first-grid">
+                        <img src="images/boy-from-tandale.png" alt="A boy from Tandale album launch" class="img-responsive" />
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="banner grid-1">
+                    <div class="first-grid">
+                        <img src="images/pongezi-awards.png" alt="Pongezi awards" class="img-responsive" />
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 <!-- //header -->
@@ -86,7 +89,7 @@
         <h3>Kenyan Event Photographer</h3>
     </div>
     <div class="row">
-        <p>Duis turpis arcu, dictum eu tincidunt id, congue vel urna. Quisque posuere, ipsum eu faucibus cursus, ex tortor elementum leo, eget varius lorem quam a nisl. Mauris ut enim sed tortor auctor luctus at vitae est. Duis dignissim auctor rhoncus. Curabitur diam lorem, ultricies eu pellentesque sed, elementum sodales urna. Pellentesque molestie maximus nisl at ultrices.</p>
+        <p>We specialize in co-operates and events photography and videography to bring professionalism to its retail environment.</p>
         <p>Duis turpis arcu, dictum eu tincidunt id, congue vel urna. Quisque posuere, ipsum eu faucibus cursus, ex tortor elementum leo, eget varius lorem quam a nisl. Mauris ut enim sed tortor auctor luctus at vitae est. Duis dignissim auctor rhoncus. Curabitur diam lorem, ultricies eu pellentesque sed, elementum sodales urna. Pellentesque molestie maximus nisl at ultrices.</p>
         <p>Duis turpis arcu, dictum eu tincidunt id, congue vel urna. Quisque posuere, ipsum eu faucibus cursus, ex tortor elementum leo, eget varius lorem quam a nisl. Mauris ut enim sed tortor auctor luctus at vitae est. Duis dignissim auctor rhoncus. Curabitur diam lorem, ultricies eu pellentesque sed, elementum sodales urna. Pellentesque molestie maximus nisl at ultrices.</p>
     </div>
@@ -185,10 +188,10 @@
         </div>
         <div class="col-sm-6">
             <div class="camera">
-                <a href="photography/events.php"><span class="fa fa-camera-retro"></span></a>
+                <a href="photography/corporate-events.php"><span class="fa fa-camera-retro"></span></a>
             </div>
             <div class="service-content">
-                <a href="photography/events.php"><h4>Corporate Events</h4></a>
+                <a href="photography/corporate-events.php"><h4>Corporate Events</h4></a>
                 <p>I love the challenge of corporate and charity events. They can vary from brand launches, high profile events, charity balls or art exhibitions. Behind each one there is always a group of people who have worked like crazy to make the event happen. I have to do those people justice and my photographs have to sparkle.</p>
             </div>
         </div>
@@ -350,11 +353,11 @@
             <br><h3>CONTACT INFORMATION</h3><br>
             <address>
                 Address:<br>
-                16 W Central St, London WC1A 1JJ <br>
-                <br>
+                Nairobi 20391 <br>
+                Nairobi, Kenya<br>
                 <br>
                 Phone number: <br>
-                +254 796 258 741<br>
+                <a href="tel:+254711151092">0711151092</a><br>
                 <br>
                 <br>
                 Email:<br>
@@ -362,8 +365,8 @@
                 <br>
                 <br>
                 Social links:<br>
+                <a href="https://www.facebook.com/LightArtPhoto/"><i class="fa fa-facebook"></i></a>
                 <a href="#"><i class="fa fa-instagram"></i></a>
-                <a href="#"><i class="fa fa-facebook"></i></a>
                 <a href="#"><i class="fa fa-twitter"></i></a>
                 <a href="#"><i class="fa fa-google-plus"></i></a>
             </address>
@@ -371,10 +374,6 @@
     </div>
 </section>
 <!-- //contact -->
-
-
-
-
 
 <!-- footer -->
 <section class="" id="footer">
@@ -398,6 +397,13 @@
             items :3,
             itemsDesktop : [640,5],
             itemsDesktopSmall : [414,4]
+        });$("#owl-banner").owlCarousel({
+
+            autoPlay: 3000, //Set AutoPlay to 3 seconds
+            autoPlay:true,
+            items :1,
+            itemsDesktop : [640,1],
+            itemsDesktopSmall : [414,1]
         });
     });
 </script>

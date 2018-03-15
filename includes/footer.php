@@ -26,10 +26,10 @@
         <div class="col-sm-3">
             <h5>Tony LightArt Photography</h5>
             <address>
-                Tony LighArt Photography <br>
-                abc offices <br>
-                Nairobi <br>
-                Phone: +254 796 258 741
+                Nairobi 20391 <br>
+                Nairobi, Kenya<br>
+                Phone: <a href="tel:+254711151092">0711151092</a><br>
+                Email: <a href="mailto:tony@lightart.com">tony@lightart.com</a>
             </address>
         </div>
         <!-- //footer contact -->

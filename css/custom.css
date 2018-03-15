@@ -35,6 +35,9 @@ a, a:hover{
     background-size: cover;
     width: 100%;
 }
+#owl-banner img{
+    width: 100%;
+}
 
 /* about */
 #about{

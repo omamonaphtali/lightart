@@ -9,16 +9,19 @@
             <h5>Latest Events</h5>
             <ul class="">
                 <li>
+                    <img src="images/boy-from-tandale.png" alt="" class="event-holder">
                     <a href="#">Title</a> <br>
-                    March 4, 2018
+                    March 4, 2018 <br>
                 </li>
                 <li>
+                    <img src="images/saj-jazz-fest.png" alt="" class="event-holder">
                     <a href="#">Title</a> <br>
-                    March 4, 2018
+                    March 4, 2018 <br>
                 </li>
                 <li>
+                    <img src="images/pongezi-awards.png" alt="" class="event-holder">
                     <a href="#">Title</a> <br>
-                    March 4, 2018
+                    March 4, 2018 <br>
                 </li>
             </ul>
         </div>

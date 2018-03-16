@@ -18,6 +18,9 @@ a, a:hover{
 .header-light{
     background-color: rgba(88,156,177,0.92);
 }
+.header-light h3{
+    color: #343a40;
+}
 .header-dark, .header-light{
     text-transform: uppercase;
     color: #FFFFFF;
@@ -30,6 +33,28 @@ a, a:hover{
 /*apply a unique font to all headings*?
 
 /* header */
+#header .navbar{
+    height: 100px !important;
+}
+.bg-light, .navbar-collapse{
+    background-color: #FFFFFF !important;
+}
+.bg-light a{
+    color: #000000;
+    font-weight: 400 !important;
+    font-size: 22px;
+}
+.navbar-brand{
+    background: url('https://scontent.fnbo2-1.fna.fbcdn.net/v/t1.0-1/p200x200/26169256_1175136619284277_4674541303689401676_n.jpg?oh=77d81f00556e00470c9c5a37e2363a7f&oe=5B48CDB5') center no-repeat;
+    background-size: contain;
+    min-height: 100px;
+    min-width: 150px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+
+
 .item{
     background: url('../images/parties.jpg') no-repeat center;
     background-size: cover;
@@ -60,18 +85,39 @@ a, a:hover{
 }
 
 /* portfolio */
-#portfolio button a{
+#portfolio .btn-primary{
+    margin-top: 20px;
+}
+#portfolio .card{
+    padding: 0;
+}
+#portfolio .card img{
+    width: 100%;
+}
+.btn .btn-primary, #portfolio a{
     color: #FFFFFF;
     font-weight: bold;
     padding: 10px 5px;!important;
     margin: auto!important;
+    text-transform: capitalize;
 }
-.btn .btn-primary{
-    color: #589cb1;!important
-}
-#portfolio #text, #portfolio .col-sm-3{
+#portfolio #text, #portfolio .card{
     margin: auto;
 }
+
+/* services */
+#services a{
+    color: #000000;
+}
+#services img{
+    width: 50px;
+    float: left;
+    margin-top: 50px;
+    padding-bottom: 100px;
+    padding-right: 20px;
+}
+
+
 
 /* events */
 .event img {
@@ -81,16 +127,21 @@ a, a:hover{
 }
 .event {
     padding: 5em 0;
+    background: #FFFFFF;
 }
 .first-grid {
     text-align: center;
-    padding: 40px 10px;
+    padding-top: 10px;
     margin-right: 10px;
-    background: #000;
+    background-color: rgba(193,193,193,0.44);
+}
+.first-grid img{
+    width: 90%;
+    border-radius: 0;
 }
 .first-grid h3 {
     text-transform: uppercase;
-    color: #FFC107;
+    color: #000000;
     font-size: 19px;
     font-weight: 600;
     margin: 20px 0 0;
@@ -107,21 +158,52 @@ a, a:hover{
 }
 
 /* testimonials */
+#testimonials .header-light{
+    height: 150px !important;
+}
 #testimonial-carousel .carousel-item{
-    min-height: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 60%;
+    min-height: 150px;
     margin: auto;
 }
 #testimonial-carousel .carousel-item div{
-    padding: 20px auto;
+    text-align: left;
+    margin: auto;
+    min-height: 150px;
+    padding: 20px 20px;
+    background-color: rgba(171,171,171,0.44);
+}
+#testimonial-carousel .carousel-item .avatar{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+#testimonial-carousel .carousel-item p{
+    font-size: 16px;
+}
+#testimonial-carousel .carousel-item .avatar-name{
+    font-weight: bold;
 }
 
 /* contact */
+#contact .fa{
+    color: rgba(193,193,193,0.44);
+    font-size: 20px;
+    margin-right: 20px;
+}
+#contact .fa:hover{
+    color: #000000;
+}
+
 
 /* footer */
 #footer{
-    background-color: rgba(74,74,74,1);
+    background-color: #000000;
     color: #FFFFFF;
-
+    font-size: 14px;
 }
 #footer div{
     padding: 5px 20px;
@@ -133,8 +215,12 @@ a, a:hover{
 #footer ul{
     list-style-type: none;
 }
+#footer ul li{
+    display: block;
+}
 #footer #footer-nav ul li{
     display: inline-block;
+    margin-bottom: 10px;
 }
 #footer ul li a{
     color: #FFFFFF;
@@ -148,6 +234,12 @@ a, a:hover{
 }
 #footer .events{
     text-align: left;
+}
+#footer .event-holder{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    float: left;
 }
 #footer .col-sm-3{
     padding-top: 20px;

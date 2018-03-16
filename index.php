@@ -15,7 +15,7 @@
     <!-- flex slider
     <link href="css/flexslider.css" rel="stylesheet"> -->
     <!-- font awesome -->
-    <link href="css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- custom stylesheet -->
     <link href="css/custom.css" rel="stylesheet">
 
@@ -28,9 +28,9 @@
 </head>
 <body class="container-fluid">
 <!-- header -->
-<section>
+<section id="header">
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">LightArt</a>
+        <a class="navbar-brand" href="#"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNav" aria-controls="myNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -47,10 +47,10 @@
                     <a class="nav-link" href="events/">RECENT EVENTS</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="about-tony/">MEET LIGHTART</a>
+                    <a class="nav-link" href="about-tony/">MEET TONY</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact-tony/">CONTACT LIGHTART</a>
+                    <a class="nav-link" href="contact-tony/">CONTACT TONY</a>
                 </li>
             </ul>
         </div>
@@ -105,69 +105,54 @@
     </div>
     <!-- portfolio thumbnails -->
     <div class="row">
-        <div class="col-sm-3">
-            <div>
-                <a href="first-portfolio/">
-                    <img src="images/parties.jpg" alt="" class="img-thumbnail">
+        <div class="card w-25">
+            <div class="card-body">
+                <a href="photography/wedding-photography.php">
+                    <img src="images/kc-wedding.png" alt="" class="card-img-top">
                 </a>
-            </div>
-            <div class="w-100"></div>
-            <div>
-                <button type="button" class="btn btn-primary btn-sm">
-                    <a href="first-portfolio/">View my first portfolio</a>
-                </button>
+                <p class="card-text text-center">
+                    <a href="photography/wedding-photography.php" class="btn btn-primary">View my wedding portfolio</a>
+                </p>
             </div>
         </div><!-- //portfolio thumbnail -->
-        <div class="col-sm-3">
-            <div>
-                <a href="first-portfolio/">
-                    <img src="images/parties.jpg" alt="" class="img-thumbnail">
+        <div class="card w-25">
+            <div class="card-body">
+                <a href="photography/party.php">
+                    <img src="images/saj-jazz-fest.png" alt="" class="card-img-top">
                 </a>
-            </div>
-            <div class="w-100"></div>
-            <div>
-                <button type="button" class="btn btn-primary btn-sm">
-                    <a href="first-portfolio/">View my first portfolio</a>
-                </button>
+                <p class="card-text text-center">
+                    <a href="photography/party.php" class="btn btn-primary">View my Events portfolio</a>
+                </p>
             </div>
         </div><!-- //portfolio thumbnail -->
-        <div class="col-sm-3">
-            <div>
-                <a href="first-portfolio/">
-                    <img src="images/parties.jpg" alt="" class="img-thumbnail">
+        <div class="card w-25">
+            <div class="card-body">
+                <a href="photography/corporate-events.php">
+                    <img src="images/pongezi-awards.png" alt="" class="card-img-top">
                 </a>
-            </div>
-            <div class="w-100"></div>
-            <div>
-                <button type="button" class="btn btn-primary btn-sm">
-                    <a href="first-portfolio/">View my first portfolio</a>
-                </button>
+                <p class="card-text text-center">
+                    <a href="photography/corporate-events.php" class="btn btn-primary">View my Corporate events portfolio</a>
+                </p>
             </div>
         </div><!-- //portfolio thumbnail -->
-        <div class="col-sm-3">
-            <div>
-                <a href="first-portfolio/">
-                    <img src="images/parties.jpg" alt="" class="img-thumbnail">
+        <div class="card w-25">
+            <div class="card-body">
+                <a href="photography/wedding-photography.php">
+                    <img src="images/parties.jpg" alt="" class="card-img-top">
                 </a>
-            </div>
-            <div class="w-100"></div>
-            <div>
-                <button type="button" class="btn btn-primary btn-sm">
-                    <a href="first-portfolio/">View my first portfolio</a>
-                </button>
+                <p class="card-text text-center">
+                    <a href="photography/children-party.php" class="btn btn-primary">View my party portfolio</a>
+                </p>
             </div>
         </div><!-- //portfolio thumbnail -->
-        <div id="text">
-            <br><p class="text-center">If you’re getting married, throwing a party or planning an event take a look at what Tony could do for you.</p><br>
+        <div class="text-center" id="text">
+            <br><p>If you’re getting married, throwing a party or planning an event take a look at what Tony could do for you.</p><br>
+            <p>
+                <a href="photography/" class="btn btn-primary btn-lg">View my full portfolio here <span class="fa fa-arrow-right"></span></a>
+            </p>
         </div>
     </div>
     <!-- //portfolio thumbnails -->
-    <div>
-        <button type="button" class="btn btn-primary btn-lg">
-            <a href="full-portfolio/">View my full portfolio here <span class="fa fa-arrow-right"></span></a>
-        </button><br>
-    </div>
-</section>
 <!-- //portfolio -->
 
 <!-- services -->
@@ -178,40 +163,44 @@
     </div>
     <div class="row">
         <div class="col-sm-6">
-            <div class="camera">
-                <a href="photography/wedding-photography.php"><span class="fa fa-camera-retro"></span></a>
-            </div>
             <div class="service-content">
-                <a href="photography/wedding-photography.php"><h4>Weddings</h4></a>
-                <p>Photographing someone’s wedding is a massive privilege and a real thrill. I like to understand the family dynamics so I can get great photographs of all the key people whilst ensuring I never interrupt the flow of the day. I enjoy catching the atmosphere and getting stunning shots of the new bride and groom. These are photographs that have to last a lifetime.</p>
+                <p>
+                    <a href="photography/wedding-photography.php">
+                        <img src="images/fa-camera-retro.png" alt="">
+                    </a>
+                    <a href="photography/wedding-photography.php"><h4>Weddings</h4></a>
+                    Photographing someone’s wedding is a massive privilege and a real thrill. I like to understand the family dynamics so I can get great photographs of all the key people whilst ensuring I never interrupt the flow of the day. I enjoy catching the atmosphere and getting stunning shots of the new bride and groom. These are photographs that have to last a lifetime.</p>
             </div>
         </div>
         <div class="col-sm-6">
-            <div class="camera">
-                <a href="photography/corporate-events.php"><span class="fa fa-camera-retro"></span></a>
-            </div>
             <div class="service-content">
-                <a href="photography/corporate-events.php"><h4>Corporate Events</h4></a>
-                <p>I love the challenge of corporate and charity events. They can vary from brand launches, high profile events, charity balls or art exhibitions. Behind each one there is always a group of people who have worked like crazy to make the event happen. I have to do those people justice and my photographs have to sparkle.</p>
+                <p>
+                    <a href="photography/wedding-photography.php">
+                        <img src="images/fa-camera-retro.png" alt="">
+                    </a>
+                    <a href="photography/corporate-events.php"><h4>Corporate Events</h4></a>
+                    I love the challenge of corporate and charity events. They can vary from brand launches, high profile events, charity balls or art exhibitions. Behind each one there is always a group of people who have worked like crazy to make the event happen. I have to do those people justice and my photographs have to sparkle.</p>
             </div>
         </div>
         <div class="w-100"></div>
         <div class="col-sm-6">
-            <div class="camera">
-                <a href="photography/party.php"><span class="fa fa-camera-retro"></span></a>
-            </div>
             <div class="service-content">
-                <a href="photography/party.php"><h4>Parties</h4></a>
-                <p>I take fun and creative party photos that capture the true spirit of your celebration. I love photographing parties and, whether it’s an 18th or a 50th, there’s a strong possibility you’ll be updating your profile picture after I’ve snapped your party!</p>
+                <p>
+                    <a href="photography/wedding-photography.php">
+                        <img src="images/fa-camera-retro.png" alt="">
+                    </a>
+                    <a href="photography/party.php"><h4>Parties</h4></a>
+                    I take fun and creative party photos that capture the true spirit of your celebration. I love photographing parties and, whether it’s an 18th or a 50th, there’s a strong possibility you’ll be updating your profile picture after I’ve snapped your party!</p>
             </div>
         </div>
-        <div class=" col-sm-6">
-            <div class="camera">
-                <a href="photography/children-party.php"><span class="fa fa-camera-retro"></span></a>
-            </div>
+        <div class="col-sm-6">
             <div class="service-content">
-                <a href="photography/children-party.php"><h4>Children's Parties</h4></a>
-                <p>If I don’t need a lie down after photographing a children’s party, then I haven’t done a good job. I throw myself into it. It’s a blast and I can get some great photographs which always seem to make me laugh and smile when I edit them.</p>
+                <p>
+                    <a href="photography/wedding-photography.php">
+                        <img src="images/fa-camera-retro.png" alt="">
+                    </a>
+                    <a href="photography/children-party.php"><h4>Children's Parties</h4></a>
+                    If I don’t need a lie down after photographing a children’s party, then I haven’t done a good job. I throw myself into it. It’s a blast and I can get some great photographs which always seem to make me laugh and smile when I edit them.</p>
             </div>
         </div>
     </div>
@@ -229,9 +218,27 @@
             <div class="item">
                 <div class="event grid-1">
                     <div class="first-grid">
-                        <img src="images/parties.jpg" alt="" />
-                        <h3>Federeka</h3>
-                        <p>Cras tortor ipsum, gravida vitae finibus non, bibendum quis turpis. Cras semper accumsan metus, et aliquet diam vestibulum ut. </p>
+                        <img src="images/boy-from-tandale.png" alt="" class="img-responsive" />
+                        <h3>Boy From Tandale Album Launch</h3>
+                        <p>16/3/2018 </p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="event grid-1">
+                    <div class="first-grid">
+                        <img src="images/pongezi-awards.png" alt="" />
+                        <h3>Pongezi Awards</h3>
+                        <p>16/3/2018 </p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="event grid-1">
+                    <div class="first-grid">
+                        <img src="images/saj-jazz-fest.png" alt="" />
+                        <h3>Safaricom Jazz Festival</h3>
+                        <p>16/3/2018 </p>
                     </div>
                 </div>
             </div>
@@ -239,8 +246,8 @@
                 <div class="event grid-1">
                     <div class="first-grid">
                         <img src="images/parties.jpg" alt="" />
-                        <h3>Mary watson</h3>
-                        <p>Cras tortor ipsum, gravida vitae finibus non, bibendum quis turpis. Cras semper accumsan metus, et aliquet diam vestibulum ut. </p>
+                        <h3>Event Name</h3>
+                        <p>16/3/2018 </p>
                     </div>
                 </div>
             </div>
@@ -248,8 +255,8 @@
                 <div class="event grid-1">
                     <div class="first-grid">
                         <img src="images/parties.jpg" alt="" />
-                        <h3>Thompson</h3>
-                        <p>Cras tortor ipsum, gravida vitae finibus non, bibendum quis turpis. Cras semper accumsan metus, et aliquet diam vestibulum ut. </p>
+                        <h3>Event Name</h3>
+                        <p>16/3/2018 </p>
                     </div>
                 </div>
             </div>
@@ -257,26 +264,8 @@
                 <div class="event grid-1">
                     <div class="first-grid">
                         <img src="images/parties.jpg" alt="" />
-                        <h3>Gomez</h3>
-                        <p>Cras tortor ipsum, gravida vitae finibus non, bibendum quis turpis. Cras semper accumsan metus, et aliquet diam vestibulum ut. </p>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="event grid-1">
-                    <div class="first-grid">
-                        <img src="images/parties.jpg" alt="" />
-                        <h3>john whick</h3>
-                        <p>Cras tortor ipsum, gravida vitae finibus non, bibendum quis turpis. Cras semper accumsan metus, et aliquet diam vestibulum ut. </p>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="event grid-1">
-                    <div class="first-grid">
-                        <img src="images/parties.jpg" alt="" />
-                        <h3>Federeka</h3>
-                        <p>Cras tortor ipsum, gravida vitae finibus non, bibendum quis turpis. Cras semper accumsan metus, et aliquet diam vestibulum ut. </p>
+                        <h3>Event Name</h3>
+                        <p>16/3/2018 </p>
                     </div>
                 </div>
             </div>
@@ -291,28 +280,26 @@
         <h1>KIND WORDS</h1>
     </div>
     <div id="testimonial-carousel" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#testimonial-carousel" data-slide-to="0" class="active"></li>
-            <li data-target="#testimonial-carousel" data-slide-to="1"></li>
-            <li data-target="#testimonial-carousel" data-slide-to="2"></li>
-        </ol>
         <div class="carousel-inner">
-            <div class="carousel-item active">
+            <div class="carousel-item active text-center">
                 <div>
                     <p>Quisque posuere, ipsum eu faucibus cursus, ex tortor elementum leo, eget varius lorem quam a nisl.<br>
-                    <span>Kate</span></p>
+                    <span class="avatar-name">Kate</span></p>
+                    <img src="images/parties.jpg" alt="avatar" class="avatar">
                 </div>
             </div>
             <div class="carousel-item">
                 <div>
                     <p>Quisque posuere, ipsum eu faucibus cursus, ex tortor elementum leo, eget varius lorem quam a nisl.<br>
-                        <span>Peris</span></p>
+                        <span class="avatar-name">Peris</span></p>
+                    <img src="images/parties.jpg" alt="avatar" class="avatar">
                 </div>
             </div>
             <div class="carousel-item">
                 <div>
                     <p>Quisque posuere, ipsum eu faucibus cursus, ex tortor elementum leo, eget varius lorem quam a nisl.<br>
-                        <span>Julz</span></p>
+                        <span class="avatar-name">Julz</span></p>
+                    <img src="images/parties.jpg" alt="avatar" class="avatar">
                 </div>
             </div>
         </div>

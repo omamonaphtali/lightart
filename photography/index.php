@@ -31,45 +31,45 @@
     <?php
     include '../includes/header.php';
     ?>
-    <div class="header-dark">
+    <div class="header-dark header-small">
         <h3>MY PORTFOLIO</h3>
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="../">Home</a></li>
+                <li class="breadcrumb-item mgn"><a href="../">Home</a></li>
                 <li class="breadcrumb-item active" aria-current="page">My Portfolio</li>
             </ol>
         </nav>
     </div>
 </div>
-<div class="container-fluid row">
+<div class="container-fluid row" id="portfolio">
     <div class="col-md-6">
-        <div class="card">
+        <div class="card no-border">
             <div class="card-body">
-                <a href="wedding-photography.php"><img src="../images/parties.jpg" alt="wedding portfolio" class="card-img-top img-responsive"></a>
+                <a href="wedding-photography.php"><img src="../images/parties.jpg" alt="wedding portfolio" class="card-img-top img-thumbnail"></a>
                 <a href="wedding-photography.php" class="btn btn-primary">View My Wedding Portfolio</a>
             </div>
         </div>
     </div>
     <div class="col-md-6">
-        <div class="card">
+        <div class="card no-border">
             <div class="card-body">
-                <a href="party.php"><img src="../images/parties.jpg" alt="party portfolio" class="card-img-top img-responsive"></a>
+                <a href="party.php"><img src="../images/parties.jpg" alt="party portfolio" class="card-img-top img-thumbnail"></a>
                 <a href="party.php" class="btn btn-primary">View My Party Portfolio</a>
             </div>
         </div>
     </div>
     <div class="col-md-6">
-        <div class="card">
+        <div class="card no-border">
             <div class="card-body">
-                <a href="corporate-events.php"><img src="../images/parties.jpg" alt="corporate events portfolio" class="card-img-top img-responsive"></a>
+                <a href="corporate-events.php"><img src="../images/parties.jpg" alt="corporate events portfolio" class="card-img-top img-thumbnail"></a>
                 <a href="corporate-events.php" class="btn btn-primary">View My Corporate Event Portfolio</a>
             </div>
         </div>
     </div>
     <div class="col-md-6">
-        <div class="card">
+        <div class="card no-border">
             <div class="card-body">
-                <a href="children-party.php"><img src="../images/parties.jpg" alt="children's party portfolio" class="card-img-top img-responsive"></a>
+                <a href="children-party.php"><img src="../images/parties.jpg" alt="children's party portfolio" class="card-img-top img-thumbnail"></a>
                 <a href="children-party.php" class="btn btn-primary">View My Children's Party Portfolio</a>
             </div>
         </div>

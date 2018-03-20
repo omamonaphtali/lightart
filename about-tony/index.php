@@ -42,19 +42,22 @@
     </div>
 </div>
 
-<div class="container row">
+<div class="container">
     <h2>Tony LighArt</h2>
-    <div class="col-md-4">
-        <img src="..." alt="tony lighart" class="img-responsive">
-    </div>
-    <div class="col-md-8">
-        <p>Duis turpis arcu, dictum eu tincidunt id, congue vel urna. Quisque posuere, ipsum eu faucibus cursus, ex tortor elementum leo, eget varius lorem quam a nisl. Mauris ut enim sed tortor auctor luctus at vitae est. Duis dignissim auctor rhoncus. Curabitur diam lorem, ultricies eu pellentesque sed, elementum sodales urna. Pellentesque molestie maximus nisl at ultrices.Duis turpis arcu, dictum eu tincidunt id, congue vel urna. Quisque posuere, ipsum eu faucibus cursus, ex tortor elementum leo, eget varius lorem quam a nisl. Mauris ut enim sed tortor auctor luctus at vitae est. Duis dignissim auctor rhoncus. Curabitur diam lorem, ultricies eu pellentesque sed, elementum sodales urna. Pellentesque molestie maximus nisl at ultrices.</p>
-        <p>Duis turpis arcu, dictum eu tincidunt id, congue vel urna. Quisque posuere, ipsum eu faucibus cursus, ex tortor elementum leo, eget varius lorem quam a nisl. Mauris ut enim sed tortor auctor luctus at vitae est. Duis dignissim auctor rhoncus. Curabitur diam lorem, ultricies eu pellentesque sed, elementum sodales urna. Pellentesque molestie maximus nisl at ultrices.
-        </p>
-        <p>Duis turpis arcu, dictum eu tincidunt id, congue vel urna. Quisque posuere, ipsum eu faucibus cursus, ex tortor elementum leo, eget varius lorem quam a nisl. Mauris ut enim sed tortor auctor luctus at vitae est. Duis dignissim auctor rhoncus. Curabitur diam lorem, ultricies eu pellentesque sed, elementum sodales urna. Pellentesque molestie maximus nisl at ultrices.
-        </p>
+    <div class="row">
+        <div class="col-md-4">
+            <img src="../images/tony.png" alt="tony lighart" class="img-thumbnail">
+        </div>
+        <div class="col-md-8">
+            <p>Duis turpis arcu, dictum eu tincidunt id, congue vel urna. Quisque posuere, ipsum eu faucibus cursus, ex tortor elementum leo, eget varius lorem quam a nisl. Mauris ut enim sed tortor auctor luctus at vitae est. Duis dignissim auctor rhoncus. Curabitur diam lorem, ultricies eu pellentesque sed, elementum sodales urna. Pellentesque molestie maximus nisl at ultrices.Duis turpis arcu, dictum eu tincidunt id, congue vel urna. Quisque posuere, ipsum eu faucibus cursus, ex tortor elementum leo, eget varius lorem quam a nisl. Mauris ut enim sed tortor auctor luctus at vitae est. Duis dignissim auctor rhoncus. Curabitur diam lorem, ultricies eu pellentesque sed, elementum sodales urna. Pellentesque molestie maximus nisl at ultrices.</p>
+            <p>Duis turpis arcu, dictum eu tincidunt id, congue vel urna. Quisque posuere, ipsum eu faucibus cursus, ex tortor elementum leo, eget varius lorem quam a nisl. Mauris ut enim sed tortor auctor luctus at vitae est. Duis dignissim auctor rhoncus. Curabitur diam lorem, ultricies eu pellentesque sed, elementum sodales urna. Pellentesque molestie maximus nisl at ultrices.
+            </p>
+            <p>Duis turpis arcu, dictum eu tincidunt id, congue vel urna. Quisque posuere, ipsum eu faucibus cursus, ex tortor elementum leo, eget varius lorem quam a nisl. Mauris ut enim sed tortor auctor luctus at vitae est. Duis dignissim auctor rhoncus. Curabitur diam lorem, ultricies eu pellentesque sed, elementum sodales urna. Pellentesque molestie maximus nisl at ultrices.
+            </p>
+        </div>
     </div>
 </div>
+<div class="w-75"></div>
 
 
 

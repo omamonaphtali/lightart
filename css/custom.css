@@ -53,13 +53,18 @@ a, a:hover{
     font-weight: 400 !important;
     font-size: 22px;
 }
+.navbar{
+    height: 120px;
+}
 .navbar-brand{
     background: url('https://scontent.fnbo2-1.fna.fbcdn.net/v/t1.0-1/p200x200/26169256_1175136619284277_4674541303689401676_n.jpg?oh=77d81f00556e00470c9c5a37e2363a7f&oe=5B48CDB5') center no-repeat;
     background-size: contain;
-    min-height: 100px;
-    min-width: 150px;
-    margin-right: 100px;
-    margin-left: 100px;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+.navbar-nav{
+    text-align: center;
 }
 .breadcrumb{
     background: none!important;
@@ -79,6 +84,15 @@ a, a:hover{
 }
 #owl-banner img{
     width: 100%;
+}
+
+@media screen and (min-width: 550px){
+    .navbar-brand{
+        margin-right: 100px;
+        margin-left: 100px;
+        min-height: 100px;
+        min-width: 150px;
+    }
 }
 
 /* about */

@@ -50,11 +50,11 @@
     </div>
     <div class="col-sm-5" id="footer-nav">
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Recent Events</a></li>
-            <li><a href="#">Meet Tony</a></li>
-            <li><a href="#">Contact Tony</a></li>
+            <li><a href="../">Home</a></li>
+            <li><a href="../photography/">Portfolio</a></li>
+            <li><a href="../events/">Recent Events</a></li>
+            <li><a href="../about-tony/">Meet Tony</a></li>
+            <li><a href="../contact-tony/">Contact Tony</a></li>
         </ul>
     </div>
 </div>

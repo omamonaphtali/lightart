@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Kenya event photographer</title>
+    <title>Party Portfolio of Tony LightArt</title>
 
     <!-- Bootstrap -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
@@ -31,7 +31,18 @@
     <?php
         include ('../includes/header.php');
     ?>
+    <div class="header-dark header-small">
+        <h3>My Party Portfolio</h3>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item mgn"><a href="../">Home</a></li>
+                <li class="breadcrumb-item mgn"><a href="../photography/">My Portfolio</a></li>
+                <li class="breadcrumb-item active" aria-current="page">My Party Portfolio</li>
+            </ol>
+        </nav>
+    </div>
 </div>
+
 <!-- Container for the image gallery -->
 <div class="container">
 
@@ -96,6 +107,12 @@
             <img class="demo cursor" src="https://scontent.fnbo2-1.fna.fbcdn.net/v/t1.0-9/16997741_986867924777815_8780340460867804166_n.jpg?oh=252ee85f0334dfda9d0caef6684bb184&oe=5B38289A" style="width:100%" onclick="currentSlide(6)" alt="An ongoing performance at the Safaricom Jazz Festival">
         </div>
     </div>
+</div>
+<div>
+    <p class="text-center">
+        <br>
+        <a href="../photography/" class="btn btn-primary btn-lg"><span class="fa fa-arrow-left"></span>Back To My Portfolio</a>
+    </p>
 </div>
 
 <!-- //portfolio slide -->

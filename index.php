@@ -78,6 +78,13 @@
                     </div>
                 </div>
             </div>
+            <div class="item">
+                <div class="banner grid-1">
+                    <div class="first-grid">
+                        <img src="images/kc-wedding.png" alt="wedding photo from kc" class="img-responsive" />
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
@@ -105,7 +112,7 @@
     </div>
     <!-- portfolio thumbnails -->
     <div class="row">
-        <div class="card w-25">
+        <div class="card col-sm-12 col-md-6 col-xl-3">
             <div class="card-body">
                 <a href="photography/wedding-photography.php">
                     <img src="images/kc-wedding.png" alt="" class="card-img-top">
@@ -115,7 +122,7 @@
                 </p>
             </div>
         </div><!-- //portfolio thumbnail -->
-        <div class="card w-25">
+        <div class="card col-sm-12 col-md-6 col-xl-3">
             <div class="card-body">
                 <a href="photography/party.php">
                     <img src="images/saj-jazz-fest.png" alt="" class="card-img-top">
@@ -125,7 +132,7 @@
                 </p>
             </div>
         </div><!-- //portfolio thumbnail -->
-        <div class="card w-25">
+        <div class="card col-sm-12 col-md-6 col-xl-3">
             <div class="card-body">
                 <a href="photography/corporate-events.php">
                     <img src="images/pongezi-awards.png" alt="" class="card-img-top">
@@ -135,7 +142,7 @@
                 </p>
             </div>
         </div><!-- //portfolio thumbnail -->
-        <div class="card w-25">
+        <div class="card col-sm-12 col-md-6 col-xl-3">
             <div class="card-body">
                 <a href="photography/wedding-photography.php">
                     <img src="images/parties.jpg" alt="" class="card-img-top">
@@ -377,6 +384,14 @@
 <!-- //for news and events slider-js-file-->
 <script>
     $(document).ready(function() {
+        $("#owl-banner").owlCarousel({
+
+            autoPlay: 3000, //Set AutoPlay to 3 seconds
+            autoPlay:true,
+            items :1,
+            itemsDesktop : [640,1],
+            itemsDesktopSmall : [414,1]
+        });
         $("#owl-events").owlCarousel({
 
             autoPlay: 3000, //Set AutoPlay to 3 seconds
@@ -384,13 +399,6 @@
             items :3,
             itemsDesktop : [640,5],
             itemsDesktopSmall : [414,4]
-        });$("#owl-banner").owlCarousel({
-
-            autoPlay: 3000, //Set AutoPlay to 3 seconds
-            autoPlay:true,
-            items :1,
-            itemsDesktop : [640,1],
-            itemsDesktopSmall : [414,1]
         });
     });
 </script>
